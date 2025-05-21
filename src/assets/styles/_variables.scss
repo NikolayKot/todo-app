@@ -1,0 +1,25 @@
+// Цвета
+$primary-color: #4caf50;
+$secondary-color: #2196f3;
+$error-color: #ff4444;
+$success-color: #45a049;
+$text-color: #333333;
+$light-text: #666;
+$border-color: #ddd;
+
+// Размеры
+$container-max-width: 1200px;
+$border-radius: 8px;
+$spacing-unit: 1rem;
+
+// Breakpoints
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+
+// Тени
+$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+$box-shadow-hover: 0 4px 8px rgba(0, 0, 0, 0.15);
+
+// Transitions
+$transition-duration: 0.3s;
