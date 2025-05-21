@@ -1,39 +1,51 @@
-# todo-app
+# Vue 3 Todo Application
 
-This template should help get you started developing with Vue 3 in Vite.
+Todo приложение, разработанное с использованием Vue 3, TypeScript и Vite. Приложение предоставляет удобный интерфейс для управления задачами с поддержкой фильтрации и пагинации.
 
-## Recommended IDE Setup
+## Функциональность
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- ✅ Создание, удаление и редактирование задач
+- 🔄 Отметка задач как выполненных/невыполненных
+- 🔍 Фильтрация задач (все/активные/завершённые)
+- 📄 Пагинация списка задач
+- 💾 Локальное хранение данных
+- 🎨 Современный и отзывчивый дизайн
+- 📱 Адаптивный интерфейс
 
-## Type Support for `.vue` Imports in TS
+## Технологический стек
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- Vue 3 (Composition API)
+- TypeScript
+- Vite
+- SCSS
+- ESLint
+- LocalStorage для хранения данных
 
-## Customize configuration
+## Установка и запуск
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### 1. Клонируйте репозиторий:
+```sh
+git clone [url-репозитория]
+```
+```sh
+cd todo-app
+```
 
-## Project Setup
-
+### 2. Установите зависимости:
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
+### 3. Запустите проект в режиме разработки:
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
-
+### 4. Для сборки проекта:
 ```sh
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+## Рекомендуемые инструменты разработки
+- VSCode - Редактор кода
+- Node.js 16+ и npm 7+
